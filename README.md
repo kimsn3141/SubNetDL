@@ -1,4 +1,7 @@
 # SubNetDL
 
-Code for Sungnam Kim et al., Submitted [A network-based deep learning model integrating subclonal architecture for therapy response prediction in cancer]
+Code for Sungnam Kim et al., Submitted 
+Title: A network-based deep learning model integrating subclonal architecture for therapy response prediction in cancer
+
+
 Predicting treatment response remains a critical challenge in oncology, particularly given the growing diversity of therapeutic options. Despite extensive efforts to develop predictive models using gene expression signatures, or integrative multi-omics frameworks, robust and interpretable biomarkers remain limited. Here, we present SubNetDL, a deep learning framework that integrates subclonal mutation profiles and protein–protein interaction networks via network propagation. Unlike approaches requiring condition-specific input features, SubNetDL leverages somatic mutations alone and is applicable across diverse cancer types and treatment modalities. Applied to ten TCGA cancer–drug combinations, SubNetDL achieved consistently strong performance (median AUROC = 0.74) and successfully generalized to two independent immunotherapy datasets (median AUROC = 0.77). Importantly, it identified candidate biomarker genes with treatment-specific relevance. SubNetDL prioritized genes that were not central in the network, highlighting its ability to capture context-specific patterns beyond traditional metrics. In conclusion, our approach offers a robust and interpretable framework for identifying predictive biomarkers and stratifying patients based on mutation profiles and network context.
