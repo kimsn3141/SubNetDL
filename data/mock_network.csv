@@ -1,0 +1,5 @@
+gene,gene_a,gene_b,gene_c,gene_d
+gene_a,0,1,2,1
+gene_b,1,0,1,2
+gene_c,2,1,0,1
+gene_d,1,2,1,0
